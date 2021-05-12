@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         斗鱼网页版夜间模式
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  protect your eyes
 // @author       『邪王真眼』
 // @match        *://www.douyu.com/*
@@ -22,7 +22,7 @@
         return a;
     }
     
-    //设置div颜色
+    //设置div颜色方法
     function setDark(divName,color){
         var a = document.getElementsByClassName(divName)[0];
         a.style.backgroundColor = color;
